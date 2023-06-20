@@ -1,0 +1,317 @@
+body{
+    background-color: #38176e;
+    color: white;
+}
+#codinglogo{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+#navbar li{
+    display: inline-block;
+    justify-content: center;
+}
+#ninja{
+   font-weight: 500;
+   font-size: 21px;
+   display: inline-block;
+   margin-top: 4px;
+}
+#navbar h1{
+    display: inline-block;
+    margin-top: 4px;
+}
+#item1{
+    
+    width: 20%;
+}
+#item2{
+    margin-top: -10px;
+    width: 20%;
+    font-size: 21px;
+}
+#item3{
+    width: 40%;
+    text-align: right;
+}
+#item3 img{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+}
+#searchicon{
+/* margin-right: -14px; */
+z-index: 100;
+margin-top: 4px;
+border-radius: 50%;
+margin-right: 80px;
+}
+
+#item3 input{
+width: 70%;
+/* border-radius: 4px; */
+/* border: 1px solid white; */
+border: 1px solid rgb(25 7 90);
+padding-left: 14px;
+margin-right: -30px;
+/* margin-left: -30px; */
+font-size: 21px;
+background-color: rgb(25 7 90);
+z-index: 3;color: white;
+}
+
+
+#item4{
+    width: 5%;
+    text-align: right;
+}
+#bellicon{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: left;
+}
+/* left section */
+#leftsection{
+    width: 80vw;
+    border-top: 3px dashed white;
+    border-left: 3px dashed white;
+    height: 87vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#musicposter{
+    margin-top: 25px;
+}
+/* right-section */
+
+.latestsongs img{
+    display: inline-block;
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-bottom: 7px;
+}
+.latestsongs audio{
+    display: inline-block;
+    background-color: rgb(25 7 90);
+    margin-bottom: -16px;
+    height: 30px;
+    width: 60%;
+    /* min-width: 160px; */
+    text-align: center;
+    justify-content: center;
+    margin-left: 8px;
+    
+}
+/* style the timeline */
+/* use the below linl for more details on audio tags */
+/* https://blog.shahednasser.com/how-to-style-an-audio-element/#:~:text=please%20use%20Chrome.-,Styling%20the%20Control%20Panel,to%20change%20the%20background%20color. */
+audio::-webkit-media-controls-timeline{
+    background-color: rgb(119, 84, 247);
+    color: white;
+}
+audio::-webkit-media-controls-panel{
+    background-color: rgb(119, 84, 247);
+    color: white;
+    border: 0px solid  black;
+    border-radius: 0px;
+}
+#row{
+    margin-top: 8px;
+}
+#latest h4{
+    margin-left: 10px;
+}
+#english h4{
+    margin-left: 10px;
+}
+#popularartists h4{
+    margin-left: 10px;
+}
+.musicposter{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 33%;
+    height: 220px;
+    margin-top: 10px;
+}
+.musicposter img{
+    height: 100%;
+}
+.musicposter:hover{
+scale: 1.2;
+}
+.artistimage{
+/* display: inline; */
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.artists{
+    display: inline-block;
+    /* display: flex; */
+    /* flex-direction: row; */
+/* flex-wrap: wrap; */
+    width: 120px;
+    height: 120px;
+    height: auto;
+}
+.artists:hover{
+    scale: 1.2;
+}
+.artists img{
+   margin-left: 10px;
+}
+.artists h5{
+    text-align: center;
+}
+.occassionsongs{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 30%;
+   /* z-index: 4; */
+   height: 220px;
+ 
+}
+.occassionsongs img{
+    opacity: 0.4;
+   border-radius: 6px;
+   width: 100%;
+       height: 220px;
+}
+.occassionsongs h4{
+    text-align: center;
+    margin-top: -40%;
+    z-index: 30;
+    font-family: cursive;
+    margin-right: 4px;
+    font-size: 30px;
+}
+.occassionsongs img:hover{
+    scale: 1.1;
+}
+.lateseng{
+    display: flex;
+flex-direction: column;
+    flex-wrap: nowrap;
+    width: 16%;
+border-radius: 4px;
+}
+@media screen and (max-width:1100px) {
+    .lateseng{
+        display: flex;
+    flex-direction: column;
+        flex-wrap: wrap;
+        width: 33%;
+    
+    }
+}
+#hindi h4{
+    margin-left: 10px;
+}
+.lateseng img{
+height: 150px;
+width: 100%;
+}
+.lateseng audio{
+    width: 100%;
+    height: 35px;
+}
+.lateshindi{
+    display: flex;
+flex-direction: column;
+    flex-wrap: nowrap;
+    width: 16%;
+
+}
+@media screen and (max-width:1100px) {
+    .lateshindi{
+        display: flex;
+    flex-direction: column;
+        flex-wrap: wrap;
+        width: 33%;
+    
+    }
+}
+.lateshindi img{
+height: 150px;
+width: 100%;
+}
+.lateshindi audio{
+    width: 100%;
+    height: 35px;
+}
+#webpage{
+    display: flex;
+    flex-wrap: nowrap;
+}
+#rightsection{
+    width: 18vw;
+    /* margin-left: 3px; */
+    border-top: 3px dashed white;
+    border-left: 3px dashed white;
+    /* border-bottom: 3px dashed white; */
+    border-top-left-radius: 7px;
+    /* border-bottom-left-radius: 7px;  */
+    padding-left: 3px;
+    height: 87vh;
+    overflow-y: scroll;
+margin-left: 5px;
+}
+#rightsection h3{
+    /* text-align: center; */
+    margin-left: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 700;
+}
+/* @media screen and (max-width:1100px) {
+    #rightsecion{
+        width: 100%;
+    }
+} */
+.queuesongs{
+    width: 100%;
+    /* border-bottom: 3px solid white; */
+}
+.queuesongs img{
+    /* display: inline-block; */
+    display: flex;
+    flex-wrap: nowrap;
+    height: 80px;
+    width: auto;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-bottom: 7px;
+}
+.queuesongs audio{
+    /* display: inline-block; */
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(25 7 90);
+    /* margin-bottom: -16px; */
+    height: 30px;
+    width: 100%;
+    min-width: 60px;
+    text-align: center;
+    justify-content: center;
+    /* margin-left: 8px; */
+    
+}
+.queuerow{
+    width: 100%;
+    border-bottom: 3px dashed white;
+    margin-bottom: 4px;
+}
+@media screen and (max-width:900px){
+    #rightsection{
+        display: none;
+    }
+    #leftsection{
+        width: 95vw;
+    }
+}
